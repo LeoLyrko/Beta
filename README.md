@@ -1,7 +1,7 @@
 ﻿# Projet-Greta-Groupe-4
 # Chartre Graphique : Uni'Vert
 
-![Logo](../medias/new_logo-256x256V4.png)  
+![Logo](medias/new_logo-256x256V4.png)  
 
 **********************
 **Table des matières**
@@ -17,10 +17,10 @@
 
 | Utilisation | Exemple |
 | ------|----|
-**Version finale, actuellement utilisé** | ![Logo](../medias/new_logo-256x256V4.png)
-**Version utilisé pour les impression Noir & Blanc** | ![Logo](../medias/new_logo-256x256V2.png)
-**Prototype V2** | ![Logo](../medias/new_logo-256x256V3.png)
-**Prototype V1** | ![Logo](../medias/new_logo-256x256.png)
+**Version finale, actuellement utilisé** | ![Logo](medias/new_logo-256x256V4.png)
+**Version utilisée pour les impressions Noir & Blanc** | ![Logo](medias/new_logo-256x256V2.png)
+**Prototype V2** | ![Logo](medias/new_logo-256x256V3.png)
+**Prototype V1** | ![Logo](medias/new_logo-256x256.png)
 
 *******************
 <div id='couleur'/>
@@ -37,7 +37,7 @@
 
 |Palette de couleur|
 |---|
-|![Palette de couleur](../medias/Markdown%20Univert%20Color%20Palette%20-%20color-hex.com.png)
+|![Palette de couleur](medias/Markdown%20Univert%20Color%20Palette%20-%20color-hex.com.png)
 
 *******************
 <div id='police'/>
