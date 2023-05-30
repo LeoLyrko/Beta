@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lora:wght@400;700&family=Oswald:wght@500;700&display=swap');
+* {
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/*NAVBAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  user-select: none;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.466);
+  vertical-align: middle;
+  backdrop-filter: blur(2px);
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+  z-index: 999;
+}
+.navbar-header a {
+  float: left;
+  padding-left: 3rem;
+}
+.navbar-img {
+  width: 60px;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.navbar-header:hover h2 {
+  background:-webkit-linear-gradient(left, #378141 30%, #1e5c28 70%);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+  text-decoration: 3px underline;
+  text-decoration-color: #378141;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.navbar-h2 {
+  float: right;
+  padding-left: 1rem;
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 25x;
+  color: #ffffff;
+  text-decoration-color: transparent;
+  margin-top: 13px;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.navbar-ul {
+  display: flex;
+  position: relative;
+  margin: 0;
+  height: 80px;
+  justify-content: right;
+  padding-top: 13px;
+  list-style: none;
+}
+.navbar-ul li {
+  padding-right: 30px;
+}
+.navbar-ul li a {
+  color: #fff;
+  position: relative;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.navbar-ul li a:hover {   
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+.navbar-ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  .navbar-ul li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+/* Page - Coûts de fabrication */
+.Coûts-de-fabrication #link-navbar-focus::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+/* FOOTER */
+footer {
+  margin-bottom: auto;
+  width: 100%;
+  background-color: #378141;
+  padding-bottom: 10px;
+  border-top: 2px solid white;
+}
+.footer-logo {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.div_footer {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.ul_footer {
+  width: 100%;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  flex-flow: wrap column;
+  padding-left: 0;
+}
+.h2_footer {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: underline #ffffff;
+  cursor: default;
+}
+.baby_li {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+}
+.baby_li a {
+  color: white;
+}
+.baby_li a:hover {
+  color: rgb(19, 18, 18);
+}
+.footer-hr {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'Lora', serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.uni-vert {
+  font-family: 'Bruno Ace SC', cursive;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.uni-vert:hover {
+  color: black;
+}
