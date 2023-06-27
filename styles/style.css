@@ -53,7 +53,7 @@ nav {
   float: right;
   padding-left: 1rem;
   font-family: 'Bruno Ace SC', cursive;
-  font-size: 25x;
+  font-size: 25px;
   color: #ffffff;
   text-decoration-color: transparent;
   margin-top: 13px;
@@ -170,4 +170,9 @@ footer p {
 }
 .uni-vert:hover {
   color: black;
+}
+
+/* ** Page ADMIN */
+.h1-admin {
+  margin: 0;
 }

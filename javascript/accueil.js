@@ -167,6 +167,12 @@ modalOpenBtn11.addEventListener('click', function() {
 modalCloseBtn11.addEventListener('click', function() {
   modalBg11.classList.remove('bg-active');
 });
+// Compteur
+$(document).ready(function(){
+  $('.num').counterUp({
+    time: 1200
+  });
+});
 
 // Bouton en savoir plus
 var trigger = document.querySelector('.sticky-trigger');

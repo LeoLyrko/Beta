@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+	  <link rel="stylesheet" href="styles/accueil.css">
+	  <link rel="stylesheet" href="styles/Coûts-de-fabrication.css">
+	  <link rel="shortcut icon" type="image/png" href="medias/ico_site.png"/>
+    <title>Admin Create</title>
+</head>
+<body>
+  <form id="create-page-form">
+    <h1 class="h1-admin">Page Admin</h1>
+    <!-- Home -->
+    <div>
+        <label for="page-title">Titre :</label>
+        <input type="text" id="page-title" required>
+        <label for="page-sous-titre">Sous-titre :</label>
+        <input type="text" id="page-sous-titre" required>
+        <label for="image-url">URL de l'image :</label>
+        <input type="file" id="image-url" required>
+    </div>
+    <!-- NavBarAside -->
+    <div>
+        <!-- Parent First -->
+        <label for="navBarAsideTitle1">Titre catégorie n°1 :</label>
+        <textarea name="" id="navBarAsideTitle1"></textarea>
+        <!-- Sous Parent First 1 -->
+        <label for="navBarAsideSousTitle1">Titre Sous catégorie n°1 :</label>
+        <textarea name="" id="navBarAsideSousTitle1"></textarea>
+        <!-- Sous Parent First 2 -->
+        <label for="navBarAsideSousTitle2">Titre Sous catégorie n°2 :</label>
+        <textarea name="" id="navBarAsideSousTitle2"></textarea>
+        <!-- Sous Parent First 3 -->
+        <label for="navBarAsideSousTitle3">Titre Sous catégorie n°3 :</label>
+        <textarea name="" id="navBarAsideSousTitle3"></textarea>
+
+        <!-- Parent Second -->
+        <label for="navBarAsideTitle2">Titre catégorie n°2 :</label>
+        <textarea name="" id="navBarAsideTitle2"></textarea>
+        <!-- Sous Parent First 4 -->
+        <label for="navBarAsideSousTitle4">Titre Sous catégorie n°4 :</label>
+        <textarea name="" id="navBarAsideSousTitle4"></textarea>
+        <!-- Sous Parent First 5 -->
+        <label for="navBarAsideSousTitle5">Titre Sous catégorie n°5 :</label>
+        <textarea name="" id="navBarAsideSousTitle5"></textarea>
+        <!-- Sous Parent First 6 -->
+        <label for="navBarAsideSousTitle6">Titre Sous catégorie n°6 :</label>
+        <textarea name="" id="navBarAsideSousTitle6"></textarea>
+    </div>
+    <!-- Article 1 -->
+    <div>
+        <label for="titreArticle1">Titre de la première catégorie :</label>
+        <textarea id="titreArticle1" required></textarea>
+
+        <label for="h2Article">Premier titre de la sous catégorie :</label>
+        <textarea id="h2Article" required></textarea>
+
+        <label for="pArticle">Paragraphe de votre première partie :</label>
+        <textarea id="pArticle" required></textarea>
+
+        <label for="sourceUrlArticle">URL de votre source :</label>
+        <textarea id="sourceUrlArticle" required></textarea>
+        <label for="nomSourceArticle">Nom de la source :</label>
+        <textarea id="nomSourceArticle" required></textarea>
+
+    </div>
+
+
+
+    <!-- BKABKA -->
+    <div>
+        <label for="page-content">Contenu du paragraphe :</label>
+        <textarea id="page-content" required></textarea>
+    </div>
+
+    <button type="submit">Créer la page</button>
+  </form>
+
+  <script src="javascript/create-page.js"></script>
+  <script src="javascript/coûts-de-fabrication.js"></script>
+</body>
+</html>
